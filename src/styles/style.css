@@ -1,0 +1,234 @@
+.navbar {
+    background: white;
+color: #7fad39;
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+align-items: center;
+position: fixed;
+width: 100%;
+z-index: 1000;
+}
+.navbar .left a {
+    display: flex;
+    align-items: center;
+    color: #7fad39;
+}
+.navbar .left a img {
+    max-width: 100px;
+}
+.navbar .middle {
+    width: 30%;
+display: flex;
+justify-content: space-evenly;
+}
+.navbar .middle a {
+    color:  #7fad39;
+text-decoration: navajowhite;
+font-weight: bold;
+transition: 0.2s ease-in-out;
+}
+.navbar .middle a:hover {
+    color: #1970f9;
+}
+.tabs {
+    margin-top: 1rem;
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+}
+.tabs span {
+    padding: 5px 40px;
+}
+.tabs .active {
+    background: #7fad39;
+    color: white;
+}
+.card_wrapper {
+    padding: 2rem;
+    margin: 0 2rem;
+    border: 2px solid #7fad39;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.card_wrapper .card {
+    width: 48%;
+    padding: 1rem;
+    border: 1px solid #7fad39;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+.card_wrapper .card .image {
+    overflow: hidden;
+height: 12rem;
+}
+.card_wrapper .card .image img {
+    width: 100%;
+}
+.card_wrapper .card h2 {
+    margin: 5px 0;
+    color: #7fad39;
+}
+.card_wrapper .card p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-weight: 900;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .footer {
+    margin-top: 1rem;
+    background: #7fad39;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.aboutUs {
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.aboutUs img {
+    width: 20rem;
+}
+.aboutUs h1 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+.aboutUs p {
+    width: 80%;
+    margin: 1rem 0;
+}
+
+.tag_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+    width: 70rem;
+}
+
+.tag{
+   padding: 10px;
+}
+.tag a{
+    color: rgb(255, 248, 248);
+}
+
+.tag :hover{
+   border: 1px solid #9863fa;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.footer_card{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div_1 a{
+   padding: 20px;
+}
+.blog_page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog_page .wrapper {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px 5px #7fad39;
+    margin: 3rem 0;
+    padding: 3rem;
+}
+.blog_page .wrapper .heading {
+    color: rgba(41, 41, 41, 1);
+    font-size: 46px;
+    margin: 0.6rem 0;
+    font-weight: 500;
+}
+.blog_page .wrapper .image_wrapper {
+    overflow: hidden;
+    width: 80%;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+.blog_page .wrapper .image_wrapper img {
+    width: 100%;
+}
+body {
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+}
+.blog_page .wrapper {
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+    color: rgba(41, 41, 41, 1);
+}
+.blog_page .wrapper h2 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h3 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h4 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h5 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h6 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h1 {
+    margin-top: 2em;
+}
+.blog_page .wrapper li {
+    color: rgba(41, 41, 41, 1);
+    letter-spacing: -0.003em;
+line-height: 20px;
+margin-top: 1rem;
+font-size: 20px;
+margin-bottom: 0.46em;
+font-style: normal;
+font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+word-break: break-word;
+font-weight: 400;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+}
+.blog_page .wrapper p {
+    color: rgba(41, 41, 41, 1);
+    letter-spacing: -0.003em;
+line-height: 32px;
+font-size: 20px;
+font-style: normal;
+font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+word-break: break-word;
+font-weight: 400;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+}
+.desc_wrapper .marked img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
