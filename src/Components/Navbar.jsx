@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="left">
-        <Link to="https://seedsly.bloodanytime.com/index.html"><img src={logo} alt="" /> </Link>
+        <Link to="https://seedsly.bloodanytime.com/index.html" target="_blank"><img src={logo} alt="" /> </Link>
       </div>
       <div className="middle">
         <Link to="/">Home</Link>
