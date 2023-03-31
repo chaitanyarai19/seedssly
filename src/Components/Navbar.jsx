@@ -7,10 +7,10 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="left">
-        <Link to="/"><img src={logo} alt="" /> </Link>
+        <Link to="https://seedsly.bloodanytime.com/index.html"><img src={logo} alt="" /> </Link>
       </div>
       <div className="middle">
-        <Link to="https://seedsly.bloodanytime.com/index.html">Home</Link>
+        <Link to="/">Home</Link>
         {/* <Link to="/about">About</Link> */}
         <a href="https://seedsly.bloodanytime.com/index.php" target="_blank" >Shop</a>
       </div>
