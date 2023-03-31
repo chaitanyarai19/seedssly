@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/seedssly/static/css/main.3a60deb9.css",
-    "main.js": "/seedssly/static/js/main.9715e64d.js",
+    "main.js": "/seedssly/static/js/main.0a583cfb.js",
     "static/media/farmer-holds-rice-hand.jpg": "/seedssly/static/media/farmer-holds-rice-hand.08cf640892af9927c384.jpg",
     "static/media/logo.png": "/seedssly/static/media/logo.67cac1e05a2b687c38ac.png",
     "static/media/index.jpeg": "/seedssly/static/media/index.c9f73e4ebfbf7b3dfcc0.jpeg",
     "index.html": "/seedssly/index.html",
     "main.3a60deb9.css.map": "/seedssly/static/css/main.3a60deb9.css.map",
-    "main.9715e64d.js.map": "/seedssly/static/js/main.9715e64d.js.map"
+    "main.0a583cfb.js.map": "/seedssly/static/js/main.0a583cfb.js.map"
   },
   "entrypoints": [
     "static/css/main.3a60deb9.css",
-    "static/js/main.9715e64d.js"
+    "static/js/main.0a583cfb.js"
   ]
 }
