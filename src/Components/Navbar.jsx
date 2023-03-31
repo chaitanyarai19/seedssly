@@ -12,7 +12,7 @@ function Navbar() {
       <div className="middle">
         <Link to="/">Home</Link>
         {/* <Link to="/about">About</Link> */}
-        <a href="https://wingzacademy.com/kissania/" target="_blank" >Shop</a>
+        <a href="https://seedsly.bloodanytime.com/index.php" target="_blank" >Shop</a>
       </div>
       <div className="right">
         <div style={{ marginRight: "15px" }} id="google_translate_element"></div>
